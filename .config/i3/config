@@ -199,3 +199,13 @@ exec --no-startup-id ~/.config/polybar/launch.sh
 for_window [all] border none
 
 exec --no-startup-id xrdb ~/.Xresources
+
+# My bindsyms
+
+bindsym $mod+x exec --no-startup-id i3lock
+
+
+
+
+gaps inner 12
+gaps outer 12
